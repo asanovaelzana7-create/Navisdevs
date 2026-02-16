@@ -1,12 +1,15 @@
 
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import SectionTwo from './components/SectionTwo.jsx/SectionTwo'
 
 function App() {
 
   return (
-   <div>
-    react
-   </div>
+   <> <SectionTwo/>
+   <Header/>
+   </>
   )
 }
 
