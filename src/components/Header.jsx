@@ -1,13 +1,12 @@
 import React from "react";
-import union from "./images/Union (2).svg"
-import flag from "./images/flag.svg"
+import union from "./images/Union (2).svg";
+import flag from "./images/flag.svg";
 
 const Header = () => {
   return (
     <div id="container">
-
       <div className="header">
-        <img src={union} alt="union" className="union1"/>
+        <img src={union} alt="union" className="union1" />
         <a href="">Проекты</a>
         <a href="">Вакансии</a>
         <a href="">О нас</a>
@@ -16,7 +15,7 @@ const Header = () => {
       </div>
       <div className="hed1">
         <select name="" id="">
-        <img src={flag} alt="" className="flag"/>
+          <img src={flag} alt="" className="flag" />
           <option value="">rus</option>
           <option value="">eng</option>
         </select>
