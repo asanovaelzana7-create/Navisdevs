@@ -1,0 +1,43 @@
+
+.section{
+    background-color: black;
+    padding: 90px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.boosl{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:30px;
+
+
+}
+.boos{
+    background-color:rgb(66, 65, 65);
+border-radius: 22px;
+/* padding: 150px;
+height: 350px; */
+margin-top: 30px;
+padding: 40px;
+
+border: 1px solid rgba(92, 92, 92, 1);
+transition: 0.4s; 
+ overflow: hidden;
+position: relative;
+backdrop-filter: blur(10px);
+
+p{
+    color: aliceblue;
+}
+}
+h4{
+     font-size: 14px;
+
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
